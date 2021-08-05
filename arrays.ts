@@ -9,11 +9,11 @@ const carsByMake: string[][] = [];
 // ]
 
 //help with inference when extracting values
-const car = carMakers[0];
+// const car = carMakers[0];
 const myCars = carMakers.pop();
 
 //prevent incompatible values
-carMakers.push(100);
+// carMakers.push(100);
 
 //Help with 'map'
 carMakers.map((car: string): string => {
@@ -23,4 +23,4 @@ carMakers.map((car: string): string => {
 //Flexible types
 const importantDates: (Date | string)[] = [new Date(), '2030-10-10'];
 importantDates.push('dwe');
-importantDates.push(12);
+// importantDates.push(12);
